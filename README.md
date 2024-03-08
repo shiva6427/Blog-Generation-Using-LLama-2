@@ -6,9 +6,9 @@ StellarChat offers an exceptional chatbot experience powered by the cutting-edge
 
 ### Applications:
 
-- **[StellarChat (All Three Llama Models)](https://stellarchat.streamlit.app/):** Experience the full spectrum of Llama models with three versions available.
+- **[StellarChat (All Three Llama Models)](https://stellarchat.streamlit.app/):** Experience the full spectrum of Llama models with three versions (Llama2-7B, Llama2-13B, Llama2-70B) available.
   
-- **[StellarChat Basic (Two Llama Models)](https://stellarchat-basic.streamlit.app/):** Simplified chat experience with two versions of Llama models.
+- **[StellarChat Basic (Two Llama Models)](https://stellarchat-basic.streamlit.app/):** Simplified chat experience with two versions (Llama2-7B, Llama2-13B) of Llama models.
 
 ---
 
@@ -22,8 +22,9 @@ API keys for StellarChat can be obtained from [replicate.com](https://replicate.
 
 1. Clone this repository to your local machine.
 2. Create a `secret.toml` file in the `.streamlit` folder of the repository if it doesn't exist.
-3. Paste the API key and value obtained from replicate.com into the `secret.toml` file.
-4. Run the applications by executing `app.py` and `app2.py`.
+3. Paste the API key and value obtained from [replicate.com](https://replicate.com/) into the `secret.toml` file.
+4. Install all the necessary import packages by running `pip install -r requirements.txt`.
+5. Run the applications by executing the command `streamlit run app.py` and `streamlit run app2.py`.
 
 ---
 
@@ -37,8 +38,8 @@ API keys for StellarChat can be obtained from [replicate.com](https://replicate.
 
 ### Repository Contents:
 
-- **`app.py`:** This file contains the StellarChat application with two versions of Llama models. It offers a comprehensive chatbot experience with extensive customization options.
-- **`app2.py`:** This file showcases StellarChat with three versions of Llama models, providing users with a wider range of choices for chat interactions.
+- **`app.py`:** This file contains the StellarChat application with two versions (Llama2-7B, Llama2-13B) of Llama models. It offers a comprehensive chatbot experience with extensive customization options.
+- **`app2.py`:** This file showcases StellarChat with three versions (Llama2-7B, Llama2-13B, Llama2-70B) of Llama models, providing users with a wider range of choices for chat interactions.
 
 ---
 
